@@ -1,0 +1,12 @@
++incdir+../tb/fifo_uvc/
++incdir+../tb/reset_uvc/
++incdir+../tb/fifo_tb/
++incdir+../tb/fifo_test/
+../tb/fifo_uvc/fifo_pkg.sv
+../tb/reset_uvc/reset_pkg.sv
+../tb/fifo_tb/tb_pkg.sv
+../tb/fifo_test/test_pkg.sv
+../tb/if_uvc/fifo_if.sv
+../tb/if_uvc/reset_interface.sv
+../rtl/dual_clock_fifo.v
+../tb/fifo_top/tb_fifo.sv
