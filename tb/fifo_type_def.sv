@@ -1,0 +1,1 @@
+typedef enum {READ, WRITE} fifo_operation_type;
