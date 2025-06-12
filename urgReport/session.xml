@@ -1,0 +1,26 @@
+<session version="1.1" release="V-2023.12-SP1" timestp="2025-05-20 15:30:24 GMT">
+  <info>
+    <attr name="datetime" value="Tue May 20 17:30:25 2025
+"/>
+    <attr name="command" value="urg -dir simv.vdb"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Group" value="91.6667%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="fifo_pkg::fifo_coverage::fifo_cg">
+      <metric name="Group" value="91.6667%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>
