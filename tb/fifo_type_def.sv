@@ -1,0 +1,1 @@
+typedef enum  {READ, WRITE} operation_type;

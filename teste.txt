@@ -1,0 +1,12 @@
+write_read_test                                                     
+random_data_test                                                  
+random_operation_property_test                                   
+test_writes_in_ranges                                        
+write_16_random_data_read_test                                      
+two_repeated_write_read_two_reset_test                              
+simultaneous_read_write_test                                  
+simultaneous_read_write_reset_simultaneous_write_again_write_read_test
+write_read_read_test                                                
+write_read_x8                                                       
+complex_operation_test                                              
+fifo_stress_test

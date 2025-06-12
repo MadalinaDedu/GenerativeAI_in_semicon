@@ -1,0 +1,41 @@
+<session version="1.1" release="V-2023.12-SP1" timestp="2024-08-22 10:02:32 GMT">
+  <info>
+    <attr name="datetime" value="Thu Aug 22 12:02:44 2024
+"/>
+    <attr name="command" value="urg -report check -dir simv.vdb"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Group" value="97.5694%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="fifo_pkg::fifo_coverage::cg_rd_wr_cross">
+      <metric name="Group" value="91.6667%" />
+    </scope>
+    <scope type="group" name="fifo_pkg::fifo_coverage::data_cg">
+      <metric name="Group" value="93.75%" />
+    </scope>
+    <scope type="group" name="fifo_pkg::fifo_coverage::cg_wr_en">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="fifo_pkg::fifo_coverage::cg_rd_en">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="fifo_pkg::fifo_coverage::cg_full">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="fifo_pkg::fifo_coverage::cg_empty">
+      <metric name="Group" value="100%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>
